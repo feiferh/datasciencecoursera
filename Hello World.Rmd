@@ -1,0 +1,30 @@
+---
+title: "Hello Wordl"
+author: "Fernando Rocha Rosario"
+date: "27/9/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r echo=TRUE}
+#PARA MOSTRAR EL CÓDIGO
+#r include=F  PARA INCLUIRECL CÓDIGO Y SU RESULTADO PERO SE EJECUTA
+#r eval=F  PARA MOSTRAR EL CÓDIGO PERO NO EJECUTARLO
+```
+
+**This is a markdown file**
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
